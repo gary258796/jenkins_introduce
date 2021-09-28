@@ -10,7 +10,7 @@ public class GreetController {
     @ResponseBody
     @GetMapping(value = "/greet/hello")
     public String greetResponse() {
-        return "Hello!! This is Jenkins Demo.";
+        return "Hello!! This is Jenkins Demo. Today is a good day.";
     }
 
 }
